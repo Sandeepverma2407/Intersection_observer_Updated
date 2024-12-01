@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .quotes {
+        width: 70%;
+        height: auto;
+        font-size: 25px;
+        padding: 20px;
+        background-color: rgba(0, 0, 255, 0.292);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .main {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        /* background-color: aqua; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+      }
+      .cont {
+        width: 95vw;
+        height: 600px;
+        padding: 20px;
+        padding-right: 0;
+        overflow-y: scroll;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: rgb(50, 59, 59); */
+      }
+      .printbox {
+        width: 95%;
+        margin-bottom: 20px;
+        height: 600px;
+        display: flex;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        object-fit: cover;
+      }
+      .printbox img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="contmain"> -->
+
+    <!-- <div id="container"></div> -->
+    <!-- </div> -->
+
+    <div class="main">
+      <div id="container" class="cont"></div>
+      Welcome to Intersection Observer
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      //   loadAllQuotes();
+    </script>
+  </body>
+</html>
